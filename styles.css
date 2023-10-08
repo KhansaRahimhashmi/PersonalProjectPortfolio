@@ -6,7 +6,7 @@ body {
 }
   
 
-  .appBar {
+  .app-bar {
     position: absolute;
     top: 15px;
   }
@@ -16,11 +16,12 @@ body {
 
   }
   
-  .Header{
+  .header{
     width: 375px;
     height: 718px;
     flex-shrink: 0;
   }
+
   .headline {
     display: flex;
     flex-direction: column;
@@ -34,8 +35,8 @@ body {
     top: 68px;
   }
   
-  .headlineText {
-    font-family: "Poppins", sans-serif;
+  .headline-text {
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -44,10 +45,10 @@ body {
     color: #172b4d;
   }
   
-  .primaryText {
+  .primary-text {
     width: 327px;
     height: 146px;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -55,8 +56,8 @@ body {
     color: #344563;
   }
   
-  .socialMedia {
-    font-family: "Poppins", sans-serif;
+  .social-media {
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -78,8 +79,7 @@ body {
   }
   
 
-  .workSection {
-    display: grid;
+  .work-section {
     margin-top: 6rem;
     justify-content: center;
     margin-bottom: 8rem;
@@ -107,7 +107,7 @@ body {
     top: 718px;
   }
   
-  .snapshotPortfolio1 {
+  .snapshot-portfolio1 {
     width: 295px;
     height: 200px;
     border-radius: 8px;
@@ -117,7 +117,7 @@ body {
     margin-top: 5px;
   }
   
-  .leftBlock {
+  .left-block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -127,17 +127,16 @@ body {
     height: 288px;
   }
   
-  .projectTitle {    
+  .project-title {    
     width: 295px;
     height: 10px;
     letter-spacing: 0;
-    font-family: "Poppins", Helvetica;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 40px;
     color: #172b4d;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     margin-top: 5px;
     display: flex;
   }
@@ -145,8 +144,7 @@ body {
   .experience ul {
     display: flex;
     flex-direction: row;
-    padding: 0;    
-    margin-top: 5rem;
+    padding: 0;
     text-decoration: none;
     list-style: none;
     width: 250px;
@@ -160,16 +158,17 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
     color: #7a869a;    
     gap: 12px;
-    margin-top: 0px;
+    margin-top: 0;
 
   }
+
   .layout{
     width: 295px;
     height:288px;
@@ -178,8 +177,7 @@ body {
   
   
   .textt {
-    width: 295px;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -187,7 +185,7 @@ body {
     color: #344563;
     width: 295px;
     height: 80px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     margin-top: -25px;
   }
@@ -209,7 +207,7 @@ body {
     background: #ebebff;
     padding: 6px 14px;
     border-radius: 8px;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -222,7 +220,6 @@ body {
   }
   
   .action {
-    margin-top: 2px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -236,7 +233,7 @@ body {
   
   .see-project {
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -255,6 +252,7 @@ body {
     border-radius: 8px;
     background-color: #fff;
   }
+
   .myself {
     display: flex;
     flex-direction: column;
@@ -265,6 +263,7 @@ body {
     background-color: white;
     border-top-right-radius: 70px;
   }
+
   .resume-btn {
     margin-top: 3.5rem;
     margin-bottom: 1rem;
@@ -274,9 +273,10 @@ body {
     width: 280px;
     margin-left: 0;
   }
+
   .resume {
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -293,11 +293,12 @@ body {
     border-radius: 12px;
     background-color: #fff;
   }
+
   .languages {
     height: 100px;
     left: 12px;
     right: 78px;
-    font-family: "Poppins";
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -305,11 +306,11 @@ body {
     display: flex;
     align-items: center;
     gap: 5rem;
-    color: #000000;
+    color: #000;
   }
+
   .button-resume {
     margin-top: 110px;
-    display: flex;
     flex-direction: row;
     width: 315px;
     height: 20px;
@@ -320,11 +321,11 @@ body {
     margin-left: 0;
     border-radius: 8px;
   }
+
   .resume-text{
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #396df2;
@@ -342,12 +343,14 @@ body {
     border-radius: 8px;
     background-color: #fff;
   }
+
   .layoutt{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
   }
+
   .boxxx{
     width: 327px;
     height: 400px;
