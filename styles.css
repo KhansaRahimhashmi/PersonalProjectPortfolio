@@ -13,7 +13,6 @@ body {
   
   .bg {
     padding-top: 135px;
-
   }
   
   .header{
@@ -89,7 +88,7 @@ body {
     align-items: center;
     gap: 88px;
     width: 375px;
-    background-color: #d3d3d3;
+    background-color: white;
   }
   
   .cards {
@@ -106,6 +105,7 @@ body {
     width: 315px;
     top: 718px;
   }
+ 
   
   .snapshot-portfolio1 {
     width: 295px;
@@ -357,3 +357,124 @@ body {
     gap: 12px;
     margin-top: 90px;
   }
+  .languages-layout {
+    display: flex;
+    padding: 0;
+    gap: 20px;
+    width: 327px;
+  }
+  
+  .languages-text {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 650px;
+    letter-spacing: 0;
+  }
+  
+  .list-layout {
+    width: 327px;
+    height: 100.15px;
+    padding: 12px;
+    gap: 12px;
+  }
+  
+  .languages-skill {
+    width: 327px;
+    height: 72px;
+    padding: 16px, 26px, 16px, 12px;
+  }
+  
+  .lang {
+    width: 303px;
+    height: 66.72px;
+    padding: 9px 12px 9.72px;
+    border-radius: 8px;
+    background: rgb(247 247 249 / 100%);
+  }
+  
+.frame9text{
+    width: 215px;
+    height: 4px;
+    position: absolute;
+    left: 50px;     
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(37 56 88 / 100%);
+
+  }
+  
+  .language-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 8px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 26px;
+    border-radius: 8px;
+    left: 261px;
+    top: 4772px;
+    background-color: white;
+    border: white;
+  }
+  
+  .eclipse1 {
+    height: 25px;
+    top: 13px;
+    left: 12px;
+    border: 1px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .frameworks {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing : 0em;
+    text-align: left;
+    
+
+  }
+  .btnn {
+    background-color: white;
+    border: #fff;
+    width: 60px;
+    height: 70px;
+    padding: 8px;
+  }
+  .btnn2 {
+    background-color: white;
+    width: 60px;
+    border: white;
+    height: 70px;
+    padding: 15px;
+    margin-right: 2px;
+
+
+  }
+  .frameworks1 {
+    display: flex;
+    flex-direction: row;
+    gap: 14rem;
+  }
+  
+  .languages{
+    background-color: white;
+  }
+  .base {
+    width: 375px;
+    height: 1263px;
+    top: 4820px;
+    left: 375px;
+    background: rgb(255 255 255 / 100%);
+  }
+  
