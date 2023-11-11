@@ -1,22 +1,460 @@
-{
-    "extends": ["stylelint-config-standard"],
-    "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
-    "rules": {
-      "at-rule-no-unknown": null,
-      "scss/at-rule-no-unknown": [
-        true,
-        {
-          "ignoreAtRules": [
-            "tailwind",
-            "apply",
-            "variants",
-            "responsive",
-            "screen"
-          ]
-        }
-      ]
-    },
-    "csstree/validator": true,
-    "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
-  }
-  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="toolbar-dark-compact">
+
+            <div class="logo-placeholder">
+                <div class="text-wrapper">My Logo</div>
+
+            </div>
+            <div class="normal-button">
+                <div class="icons-icon-menu"><img class="union" src="Images/union.svg" /></div>
+            </div>
+            <div class="navLinks">
+                <ul class="nav-items">
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+    </nav>
+    <section>
+        <section class="portion  ">
+            <img class=" header-icon " src="Images/mob_bck.svg" alt=" ">
+            <img class="header-icon1" src="Images/desktop-Header bg.png" alt="">
+            <h2 id="main_heading"> I'm Khansa . Glad to see<br> you!</h2>
+            <h2 id="main_heading1">I'm Khansa.<br>Glad to see you!</h2>
+
+            <div class="paragraph"> I’m a software developer! I can help you <br> build a product , feature or website Look through some of my work <br> and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+            </div>
+            <div class="paragraph1"> I’m a software developer! I can help you build a product , feature or website Look through <br> some of my work and experience! If you like what you see and have a project you need <br> coded, don’t hesitate to contact me. </div>
+            <div class=" descryption_content"></div>
+            <button id="first_btn">Let's Connect </button>
+            <div class=" social_icons">
+                <img class="Vector" src="Images/Twitter_Icon.jpg" alt="no image">
+                <img class="linkedin-icon" src="Images/LinkedIn_Icon.jpg" alt="no image">
+                <img class="img" src="Images/Email_Icon.jpg" alt="no image">
+                <img class="Vector-2" src="Images/Github_Icon.png" alt="no image">
+                <img class="Vector-3" src="Images/Vector_Icon.png" alt=" no image">
+            </div>
+        </section>
+
+
+        <section>
+            <div class="portion_2_desktop">
+                <div class="grid-item"><img class="snapshot_porfolio_img" src="Images/tonic.svg" alt="Portfolio_Pic_1">
+                </div>
+                <div class="grid-item1">
+                    <h1>TONIC</h1>
+                    <div class="Details">
+                        <span> Canopy </span>
+                        <span class="counter"></span>
+                        <span><img src="Images/dot.svg" alt=""> Back End Developer </span>
+                        <span><img src="Images/dot.svg" alt=""> 2023 </span>
+                    </div>
+                    <div class="sec_2_content">
+                        <p>Exploring the future of media in Facebook's first Virtual Reality <br> app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                    </div>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>Rubby on Rails</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="pro_btn">See Projects</div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="grid-container">
+            <div class="text-content">
+                <h1>Multi-Post-Stories</h1>
+                <div class="Details">
+                    <span> Facebook </span>
+                    <span class="counter"></span>
+                    <span><img src="Images/dot.svg" alt=""> Full Stack Developer </span>
+                    <span><img src="Images/dot.svg" alt=""> 2015 </span>
+                </div>
+                <div class="sec_2_content">
+                    <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                </div>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>Rubby on Rails</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="pro_btn">See Projects</div>
+            </div>
+            <div><img class="snapshot_porfolio_img1" src="Images/post.svg" alt="Portfolio_Pic_1">
+            </div>
+        </section>
+
+        <section>
+            <div class="portion_2_desktop">
+                <div class="grid-item"><img class="snapshot_porfolio_img" src="Images/facebook.svg" alt="Portfolio_Pic_1">
+                </div>
+                <div class="grid-item1">
+                    <h1>Facebook 360</h1>
+                    <div class="Details">
+                        <span> Facebook </span>
+                        <span class="counter"></span>
+                        <span><img src="Images/dot.svg" alt=""> Full Stack Dev </span>
+                        <span><img src="Images/dot.svg" alt=""> 2015 </span>
+                    </div>
+                    <div class="sec_2_content">
+                        <p>Exploring the future of media in Facebook's first Virtual Reality <br> app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                    </div>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>Rubby on Rails</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="pro_btn">See Projects</div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <section class="grid-container">
+            <div class="text-content">
+                <h1>Uber Navigation</h1>
+                <div class="Details">
+                    <span> Uber</span>
+                    <span class="counter"></span>
+                    <span><img src="Images/dot.svg" alt=""> Lead Developer </span>
+                    <span><img src="Images/dot.svg" alt=""> 2018 </span>
+                </div>
+                <div class="sec_2_content">
+                    <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                </div>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>Rubby on Rails</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="pro_btn">See Projects</div>
+            </div>
+            <div><img class="snapshot_porfolio_img1" src="Images/uber.svg" alt="Portfolio_Pic_1">
+            </div>
+        </section>
+
+
+
+
+        <section class="work-section">
+            <div class="cards">
+                <div class="snapshot-portfolio1">
+                    <img src="Images/PortfolioCard_1.png" alt="snapshotPortfolio1" />
+                </div>
+
+                <div class="left-block">
+                    <div div class="layout1">
+                        <div class="project-title">
+                            <h2>Tonic</h2>
+                        </div>
+                        <div class="experience">
+                            <ul>
+                                <li><img src="Images/Client.png" alt="" /></li>
+                                <li><img src="Images/Counter_Icon.png" alt="" />Back End Dev</li>
+                                <li><img src="Images/Counter_Icon.png" alt="" />2015</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <p>
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                        </p>
+                    </div>
+
+                    <div class="tags">
+                        <ul class="tagss">
+                            <li>Html</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="action">
+                    <button class="see-project">See project</button>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="snapshot-portfolio1">
+                    <img src="Images/PortfolioCard_2.png" alt="snapshotPortfolio1" />
+                </div>
+
+                <div class="left-block">
+                    <div class="layout2">
+                        <div class="project-title">
+                            <h2>Multi-Post<br />Stories</h2>
+                        </div>
+                        <div class="experience">
+                            <ul>
+                                <li><img src="Images/Client.png" alt="" /></li>
+                                <li><img src="Images/Counter_Icon.png" alt="" />Back End Dev</li>
+                                <li><img src="Images/Counter_Icon.png" alt="" />2015</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <p>
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                        </p>
+                    </div>
+
+                    <div class="tags">
+                        <ul class="tagss">
+                            <li>Html</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="action">
+                    <button class="see-project">See project</button>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="snapshot-portfolio1">
+                    <img src="Images/PortfolioCard_3.png" alt="snapshotPortfolio1" />
+                </div>
+
+                <div class="left-block">
+                    <div div class="layout1">
+                        <div class="project-title">
+                            <h2>Tonic</h2>
+                        </div>
+                        <div class="experience">
+                            <ul>
+                                <li><img src="Images/Client.png" alt="" /></li>
+                                <li><img src="Images/Counter_Icon.png" alt="" />Back End Dev</li>
+                                <li><img src="Images/Counter_Icon.png" alt="" />2015</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <p>
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                        </p>
+                    </div>
+
+                    <div class="tags">
+                        <ul class="tagss">
+                            <li>Html</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="action">
+                    <button class="see-project">See project</button>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="snapshot-portfolio1">
+                    <img src="Images/PortfolioCard_4.png" alt="snapshotPortfolio1" />
+                </div>
+
+                <div class="left-block">
+                    <div class="project-title">
+                        <h2>Multi-Post<br />Stories</h2>
+                    </div>
+                    <div class="experience">
+                        <ul>
+                            <li><img src="Images/Client.png" alt="" /></li>
+                            <li><img src="Images/Counter_Icon.png" alt="" />Back End Dev</li>
+                            <li><img src="Images/Counter_Icon.png" alt="" />2015</li>
+                        </ul>
+                    </div>
+                    <div class="textt">
+                        <p>
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                        </p>
+                    </div>
+                    <div class="tags">
+                        <ul class="tagss">
+                            <li>Html</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="action">
+                    <button class="see-project">See project</button>
+                </div>
+            </div>
+
+            <div class="myself">
+                <div class="boxxx">
+                    <div class="headline-text">
+                        <h1>About Myself</h1>
+               <div class="primary-text">
+                            <p>
+                                I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                            </p>
+                            <div class="social-media">
+                                <p>LET’S CONNECT</p>
+                            </div>
+                            <div class="icons">
+                                <img src="" alt="" />
+                                <img src="Images/Github_Icon.png" alt="" />
+                                <img src="Images/LinkedIn_Icon.jpg" alt="" />
+                                <img src="Images/Vector_Icon.png" alt="" />
+                                <img src="Images/Twitter_Icon.jpg" alt="" />
+                                <img src="Images/Email_Icon.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-resume">
+                        <button class="resume-text">Get my resume</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="skill-section">
+                <div class="frameworks">
+                    <h2>Languages</h2>
+                    <button class="btnn"><img src="Images/downdirection.png" alt="" /></button>
+                </div>
+
+                <div class="lang">
+                    <div class="eclipse1"><img src="Images/js.png" alt="" /></div>
+                    <div class="frame9text">Javascript</div>
+                </div>
+                <br />
+                <div class="lang">
+                    <div class="eclipse1"><img src="Images/HTML.png" alt="" /></div>
+                    <div class="frame9text">HTML</div>
+                </div>
+                <br />
+                <div class="lang">
+                    <div class="eclipse1"><img src="Images/css.png" alt="" /></div>
+                    <div class="frame9text">CSS</div>
+                </div>
+                <div class="frameworks">
+
+                    <img src="Images/frameworks.svg" alt="" />
+                </div>
+
+                <hr />
+                <div class="frameworks">
+                    <img src="Images/skills.svg" alt="" />
+                </div>
+                <hr />
+        </section>
+
+
+        <section class="about_myself_section1">
+
+            <div class="myself1">
+
+                <div>
+                    <h1 id="uper1">About Myself</h1>
+                </div>
+                <div id="uper22">
+                    <p id="uper222">Hello I’m a software developer! I can <br> help you build a product , feature or <br> website. Look through some of my work <br> and experience! If you like what you see <br> and have a project you need coded, <br> don’t hesitate to
+                        contact me.
+                        </pi>
+                </div>
+
+                <div class="myself_btn1">
+                    <button id="B1">LET’S CONNECT</button> <br>
+                    <img id="image1" src="./assests/social media icons.png" alt="">
+                </div>
+                <div id="resume_btn1">
+                    Get my resume
+                </div>
+
+            </div>
+
+            <div class="myself2">
+                <nav class="lang_bar2">
+
+                    <div id="down_2"> <img src="Images/LANGUAGES.svg" alt="">">
+
+                    </div>
+                </nav>
+                <div class=" interset2">
+                    <img src="Images/languageslist.svg" alt=" ">
+                </div>
+                <div class="frame_work2">
+
+                    <div><img id="right2" src="Images/frame.svg" alt=""></div>
+                </div>
+                <div class="bottom2"></div>
+                <div class="Skill_2">
+                    <div><img id="right_arrow2" src="Images/skil.svg" alt=""></div>
+                </div>
+                <div class="bottom2"></div>
+
+            </div>
+
+        </section>
+        <section class="end_container_Desktop">
+            <!-- Content for the first column -->
+            <div class="column1">
+                <h1 id="title">About Myself</h1>
+                <div class="h_content1">Hello I’m a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</div>
+
+                <button id="btn_1">LET'S CONNECT </button>
+                <div class="social_icons1">
+                    <img class="Vector" src="Images/Twitter_Icon.jpg" alt="no image">
+                    <img class="linkedin-icon" src="Images/LinkedIn_Icon.jpg" alt="no image">
+                    <img class="img" src="Images/Email_Icon.jpg" alt="no image">
+                    <img class="Vector-2" src="Images/Github_Icon.png" alt="no image">
+                    <img class="Vector-3" src="Images/Vector_Icon.png" alt=" no image">
+                </div>
+                <div class="resume_btn">Get my resume</div>
+            </div>
+
+            <!-- Content for the second column -->
+            <div class="column2">
+
+                <div class="dropdown">
+                    <img class="languages" src="Images/LANGUAGES.svg" alt="">
+                    <img class="image" src="Images/languageslist.svg" alt="">
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="contact_form_container">
+                <img class="header-icon2" src="img/contacts.svg" alt="">
+                <div class="container_content">
+                    <h1>Contact me</h1>
+                    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
+                    <form class="">
+                        <input type="text" placeholder="Enter your name">
+                        <input type="email" placeholder="Enter your Email">
+                        <textarea placeholder="Write your message here..."></textarea>
+                    </form>
+                </div>
+                <button id="form_btn">Let's Connect</button>
+                <button id="form_btn1">Get in Touch </button>
+            </div>
+        </footer>
+</body>
+
+</html>
